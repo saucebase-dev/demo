@@ -1,0 +1,11 @@
+{
+    "name": "Demo",
+    "alias": "demo",
+    "description": "Demo module",
+    "author": "Saucebase",
+    "version": "v1.0",
+    "keywords": ["demo"],
+    "priority": 0,
+    "providers": ["Modules\\Demo\\Providers\\DemoServiceProvider"],
+    "files": []
+}
