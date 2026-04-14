@@ -40,15 +40,15 @@ const hasAuthModule = computed(() => modules().has('auth'));
                 <Link
                     v-if="hasAuthModule && !user"
                     :href="route('register')"
-                    class="bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary focus:ring-offset-background inline-flex items-center justify-center rounded-xl px-8 py-4 text-lg font-semibold transition-all duration-200  focus:ring-2 focus:ring-offset-2 focus:outline-hidden"
+                    class="bg-primary text-primary-foreground hover:bg-primary/90 focus:ring-primary focus:ring-offset-background inline-flex items-center justify-center rounded-xl px-8 py-4 text-lg font-semibold transition-all duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-hidden"
                 >
-                    {{ $t('Get Started Free') }}
+                    {{ $t('Create an account') }}
                 </Link>
                 <a
                     href="https://saucebase-dev.github.io/docs/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="focus:ring-primary border-border bg-background text-foreground hover:bg-accent focus:ring-offset-background inline-flex items-center justify-center rounded-xl border px-8 py-4 text-lg font-semibold transition-all duration-200  focus:ring-2 focus:ring-offset-2 focus:outline-hidden"
+                    class="focus:ring-primary border-border bg-background text-foreground hover:bg-accent focus:ring-offset-background inline-flex items-center justify-center rounded-xl border px-8 py-4 text-lg font-semibold transition-all duration-200 focus:ring-2 focus:ring-offset-2 focus:outline-hidden"
                 >
                     {{ $t('Read the Docs') }}
                 </a>

@@ -1,67 +1,67 @@
 <script setup lang="ts">
 import {
+    BookOpen,
+    Braces,
     Component,
-    GitCommitHorizontal,
+    FlaskConical,
+    Globe,
     LayoutDashboard,
-    Monitor,
-    Palette,
-    Route,
-    ShieldCheck,
+    Navigation,
+    Paintbrush,
     Terminal,
     TestTube2,
-    Zap,
 } from 'lucide-vue-next';
 
 const features = [
     {
         name: 'One-command setup',
-        description: 'Docker, SSL, DB, assets, running in minutes',
+        description: 'Docker, SSL, MySQL, Redis, Mailpit — one command and you\'re running.',
         icon: Terminal,
     },
     {
-        name: 'Hot reload (HMR)',
-        description: 'Instant browser updates with no page refresh',
-        icon: Zap,
+        name: 'Full TypeScript',
+        description: 'PHP enums and DTOs auto-generate .d.ts types. Type-safe routes via Ziggy.',
+        icon: Braces,
     },
     {
-        name: 'Type-safe routes',
-        description: 'Ziggy generates TypeScript helpers from Laravel routes',
-        icon: Route,
-    },
-    {
-        name: 'SSR opt-in',
-        description: 'Per-page server-side rendering for SEO',
-        icon: Monitor,
+        name: 'Theming system',
+        description: '15 built-in themes, a live visual editor, custom fonts, colors, and border radius.',
+        icon: Paintbrush,
     },
     {
         name: 'Filament admin',
-        description: 'Full admin panel included out of the box',
+        description: 'Auto-discovered module plugins. Tables, forms, actions, and widgets — no manual wiring.',
         icon: LayoutDashboard,
     },
     {
-        name: 'Dark / light mode',
-        description: 'Theme switching built in',
-        icon: Palette,
-    },
-    {
-        name: 'shadcn-vue UI',
-        description: 'Pre-integrated component library',
-        icon: Component,
-    },
-    {
-        name: 'PHPStan level 5',
-        description: 'Static analysis on every commit',
-        icon: ShieldCheck,
+        name: 'PHPUnit test suite',
+        description: 'Feature and unit tests per module with factories, running in isolated in-memory SQLite.',
+        icon: FlaskConical,
     },
     {
         name: 'Playwright E2E',
-        description: 'End-to-end tests pre-configured',
+        description: 'Per-module E2E test projects, auto-discovered and pre-configured for Chromium.',
         icon: TestTube2,
     },
     {
-        name: 'Commitlint',
-        description: 'Conventional commits enforced',
-        icon: GitCommitHorizontal,
+        name: 'Module navigation',
+        description: 'Structured, module-aware navigation and breadcrumbs registered per module.',
+        icon: Navigation,
+    },
+    {
+        name: 'shadcn-vue UI',
+        description: '40+ accessible Tailwind 4 components, copy-and-own, dark mode built-in.',
+        icon: Component,
+    },
+    {
+        name: 'Complete documentation',
+        description: 'Full docs site with module guides, architecture docs, and AI-optimized CLAUDE.md files.',
+        icon: BookOpen,
+    },
+    {
+        name: 'SSR opt-in',
+        description: 'Per-page server-side rendering for SEO. Public pages opt in, auth pages opt out.',
+        icon: Globe,
     },
 ];
 </script>

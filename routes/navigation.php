@@ -13,6 +13,16 @@ use App\Navigation\Section;
 |
 */
 
+// Landing Page Navigation
+Navigation::add('Pricing', '/#pricing', function (Section $section) {
+    $section->attributes([
+        'group' => 'landing',
+        'slug' => 'pricing',
+        'external' => true,
+        'order' => 1,
+    ]);
+});
+
 Navigation::add('Features', '/#features', function (Section $section) {
     $section->attributes([
         'group' => 'landing',
@@ -22,14 +32,14 @@ Navigation::add('Features', '/#features', function (Section $section) {
     ]);
 });
 
-Navigation::add('FAQ', '/#faq', function (Section $section) {
-    $section->attributes([
-        'group' => 'landing',
-        'slug' => 'faq',
-        'external' => true,
-        'order' => 1,
-    ]);
-});
+// Navigation::add('FAQ', '/#faq', function (Section $section) {
+//     $section->attributes([
+//         'group' => 'landing',
+//         'slug' => 'faq',
+//         'external' => true,
+//         'order' => 1,
+//     ]);
+// });
 
 Navigation::add(
     'Docs',

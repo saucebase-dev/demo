@@ -56,7 +56,7 @@ const features = [
         <div class="relative mx-auto max-w-7xl px-6 lg:px-8">
             <!-- Centered Header -->
             <div class="mx-auto max-w-2xl text-center">
-                <h2 class="text-primary text-2xl font-semibold">
+                <h2 class="text-primary text-4xl font-semibold">
                     {{ $t('Powered by Filament 5') }}
                 </h2>
                 <p
@@ -90,11 +90,11 @@ const features = [
                     >
                         <dt class="text-foreground text-base/7 font-semibold">
                             <div
-                                class="bg-primary absolute top-0 left-0 flex size-10 items-center justify-center rounded-xl"
+                                class="bg-primary absolute top-0 left-0 flex size-12 items-center justify-center rounded-full"
                             >
                                 <component
                                     :is="feature.icon"
-                                    class="text-primary-foreground size-6"
+                                    class="text-primary-foreground size-5"
                                     aria-hidden="true"
                                 />
                             </div>
