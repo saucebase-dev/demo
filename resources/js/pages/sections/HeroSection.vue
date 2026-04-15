@@ -35,7 +35,7 @@ onUnmounted(() => {
     <div class="bg-background relative isolate flex min-h-screen flex-col">
         <main class="mx-auto w-full px-6 py-16 lg:px-8">
             <div
-                class="relative overflow-hidden p-18"
+                class="relative overflow-hidden p-18 pb-25"
                 style="
                     mask-image:
                         linear-gradient(to bottom, #000 90%, transparent 100%),
@@ -97,7 +97,7 @@ onUnmounted(() => {
                         <div
                             class="text-muted-foreground mx-auto mt-2 w-full text-center"
                         >
-                            {{ $t('Works with the official Laravel CLI') }}
+                            {{ $t('Works with the official Laravel CLI') }} -
                             <a
                                 href="https://laravel.com/docs/13.x/installation"
                                 class="ml-1 inline-flex items-center gap-0.5 font-medium text-red-700 hover:underline dark:text-red-300"
@@ -140,7 +140,7 @@ onUnmounted(() => {
                     "
                 />
 
-                <div class="mt-8 flex justify-center">
+                <div class="my-8 flex justify-center">
                     <div class="relative inline-flex">
                         <!-- Stripe layer behind docs button -->
                         <div
