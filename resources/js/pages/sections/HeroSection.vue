@@ -104,7 +104,7 @@ onUnmounted(() => {
                         </div>
                     </div>
                 </div>
-                <!-- Module cards — grid is transformed as one unit for correct alignment -->
+                <!-- Module cards — rotate/skew styling is applied per card via `module-class` -->
                 <div
                     class="relative z-10 mx-auto grid max-w-6xl grid-cols-1 gap-8 gap-y-2 px-20 pt-8 pb-16 font-mono has-[[data-card]:hover]:*:data-card:opacity-40 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
                 >
