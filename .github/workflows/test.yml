@@ -14,3 +14,4 @@ jobs:
         uses: saucebase-dev/saucebase/.github/workflows/test-module.yml@main
         with:
             module: Demo
+            dependencies: saucebase/auth saucebase/settings saucebase/billing saucebase/announcements saucebase/blog saucebase/roadmap saucebase/themes
