@@ -16,52 +16,82 @@ import {
 const features = [
     {
         name: () => trans('One-command setup'),
-        description: () => trans('Docker, SSL, MySQL, Redis, Mailpit — one command and you\'re running.'),
+        description: () =>
+            trans(
+                "Docker, SSL, MySQL, Redis, Mailpit — one command and you're running.",
+            ),
         icon: Terminal,
     },
     {
         name: () => trans('Full TypeScript'),
-        description: () => trans('PHP enums and DTOs auto-generate .d.ts types. Type-safe routes via Ziggy.'),
+        description: () =>
+            trans(
+                'PHP enums and DTOs auto-generate .d.ts types. Type-safe routes via Ziggy.',
+            ),
         icon: Braces,
     },
     {
         name: () => trans('Theming system'),
-        description: () => trans('15 built-in themes, a live visual editor, custom fonts, colors, and border radius.'),
+        description: () =>
+            trans(
+                '15 built-in themes, a live visual editor, custom fonts, colors, and border radius.',
+            ),
         icon: Paintbrush,
     },
     {
         name: () => trans('Filament admin'),
-        description: () => trans('Auto-discovered module plugins. Tables, forms, actions, and widgets — no manual wiring.'),
+        description: () =>
+            trans(
+                'Auto-discovered module plugins. Tables, forms, actions, and widgets — no manual wiring.',
+            ),
         icon: LayoutDashboard,
     },
     {
         name: () => trans('Testing suite'),
-        description: () => trans('Per-module PHPUnit tests with factories on in-memory SQLite, plus auto-discovered Playwright E2E projects for Chromium.'),
+        description: () =>
+            trans(
+                'Per-module PHPUnit tests with factories on in-memory SQLite, plus auto-discovered Playwright E2E projects for Chromium.',
+            ),
         icon: FlaskConical,
     },
     {
         name: () => trans('Multi-language'),
-        description: () => trans('Per-module translation files with async loading. Easily add any language with the built-in i18n system.'),
+        description: () =>
+            trans(
+                'Per-module translation files with async loading. Easily add any language with the built-in i18n system.',
+            ),
         icon: Languages,
     },
     {
         name: () => trans('Module navigation'),
-        description: () => trans('Structured, module-aware navigation and breadcrumbs registered per module.'),
+        description: () =>
+            trans(
+                'Structured, module-aware navigation and breadcrumbs registered per module.',
+            ),
         icon: Navigation,
     },
     {
         name: () => trans('shadcn-vue UI'),
-        description: () => trans('40+ accessible Tailwind 4 components, copy-and-own, dark mode built-in.'),
+        description: () =>
+            trans(
+                '40+ accessible Tailwind 4 components, copy-and-own, dark mode built-in.',
+            ),
         icon: Component,
     },
     {
         name: () => trans('Complete documentation'),
-        description: () => trans('Full docs site with module guides, architecture docs, and AI-optimized CLAUDE.md files.'),
+        description: () =>
+            trans(
+                'Full docs site with module guides, architecture docs, and AI-optimized CLAUDE.md files.',
+            ),
         icon: BookOpen,
     },
     {
         name: () => trans('SSR opt-in'),
-        description: () => trans('Per-page server-side rendering for SEO. Public pages opt in, auth pages opt out.'),
+        description: () =>
+            trans(
+                'Per-page server-side rendering for SEO. Public pages opt in, auth pages opt out.',
+            ),
         icon: Globe,
     },
 ];

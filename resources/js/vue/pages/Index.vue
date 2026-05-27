@@ -11,6 +11,7 @@ import ProductSection from '@modules/billing/resources/js/vue/components/Product
 import type { Product } from '@modules/billing/resources/js/types';
 import LatestPostsSection from '@modules/blog/resources/js/vue/components/LatestPostsSection.vue';
 import HeroSection from './sections/HeroSection.vue';
+import ModulesSection from './sections/ModulesSection.vue';
 import Testimonial from './sections/Testimonial.vue';
 
 defineProps<{
@@ -36,6 +37,7 @@ defineProps<{
     <div class="relative isolate flex min-h-screen flex-col overflow-x-hidden">
         <Header />
         <HeroSection />
+        <ModulesSection />
         <FeaturesSection />
         <FilamentSection />
         <Testimonial />
