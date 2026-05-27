@@ -35,7 +35,7 @@ onUnmounted(() => {
                     <div>
                         <div class="mb-8 flex justify-center">
                             <span class="inline-flex items-center gap-3 rounded-full border border-border pl-2 pr-5 py-2 text-sm font-medium text-foreground/70 bg-card shadow-xl">
-                                <span class="rounded-full ring-4 ring-secondary/20 bg-secondary px-2.5 py-0.5 text-xs font-semibold text-white/90 text-shadow-2xs dark:text-accent-dark">
+                                <span class="rounded-full bg-secondary px-2.5 py-0.5 text-xs font-semibold text-white/90 text-shadow-2xs dark:text-accent-dark">
                                     {{ $t('NEW') }}
                                 </span>
                                 {{ $t('Introducing Saucebase 2.0') }}
