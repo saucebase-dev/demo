@@ -193,12 +193,12 @@ const features = [
                     </div>
                 </div>
                 <img
-                    src="/images/screenshots/dashboard-dark.png"
+                    src="/modules/demo/images/dashboard-admin-dark.png"
                     :alt="$t('Saucebase dashboard screenshot')"
                     class="w-3xl max-w-none rounded-xl p-3 shadow-xl ring-1 ring-gray-400/10 not-dark:hidden sm:w-228 md:-ml-16 lg:col-span-2 lg:-ml-16 dark:ring-white/30"
                 />
                 <img
-                    src="/images/screenshots/dashboard-light.png"
+                    src="/modules/demo/images/dashboard-admin-light.png"
                     :alt="$t('Saucebase dashboard screenshot')"
                     class="w-3xl max-w-none rounded-xl p-3 shadow-2xl ring-1 shadow-black ring-gray-400/30 sm:w-228 md:-ml-16 lg:col-span-2 lg:-ml-16 dark:hidden dark:ring-white/30"
                 />
