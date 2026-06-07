@@ -7,11 +7,11 @@ import FilamentSection from './sections/FilamentSection.vue';
 
 import { Head } from '@inertiajs/vue3';
 
-import ProductSection from '@modules/Billing/resources/js/components/ProductSection.vue';
-import type { Product } from '@modules/Billing/resources/js/types';
-import LatestPostsSection from '@modules/Blog/resources/js/components/LatestPostsSection.vue';
+import ProductSection from '@modules/billing/resources/js/vue/components/ProductSection.vue';
+import type { Product } from '@modules/billing/resources/js/types';
+import LatestPostsSection from '@modules/blog/resources/js/vue/components/LatestPostsSection.vue';
 import HeroSection from './sections/HeroSection.vue';
-import Testimonial from './sections/Testimonial.vue';
+import ModulesSection from './sections/ModulesSection.vue';
 
 defineProps<{
     products?: Product[];
@@ -36,9 +36,9 @@ defineProps<{
     <div class="relative isolate flex min-h-screen flex-col overflow-x-hidden">
         <Header />
         <HeroSection />
+        <ModulesSection />
         <FeaturesSection />
         <FilamentSection />
-        <Testimonial />
         <ProductSection v-if="products?.length" :products="products">
             <div class="mx-auto max-w-4xl text-center">
                 <h2

@@ -1,7 +1,9 @@
 {
     "name": "saucebase/demo",
-    "description": "",
+    "description": "Demo module",
     "type": "saucebase-module",
+    "license": "proprietary",
+    "version": "0.5.0",
     "authors": [
         {
             "name": "Saucebase",
@@ -10,13 +12,15 @@
     ],
     "extra": {
         "laravel": {
-            "providers": [],
+            "providers": [
+                "Modules\\Demo\\Providers\\DemoServiceProvider"
+            ],
             "aliases": {}
         }
     },
     "autoload": {
         "psr-4": {
-            "Modules\\Demo\\": "app/",
+            "Modules\\Demo\\": "src/",
             "Modules\\Demo\\Database\\Factories\\": "database/factories/",
             "Modules\\Demo\\Database\\Seeders\\": "database/seeders/"
         }
@@ -25,5 +29,6 @@
         "psr-4": {
             "Modules\\Demo\\Tests\\": "tests/"
         }
-    }
+    },
+    "minimum-stability": "stable"
 }
