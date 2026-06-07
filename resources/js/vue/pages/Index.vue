@@ -12,7 +12,6 @@ import type { Product } from '@modules/billing/resources/js/types';
 import LatestPostsSection from '@modules/blog/resources/js/vue/components/LatestPostsSection.vue';
 import HeroSection from './sections/HeroSection.vue';
 import ModulesSection from './sections/ModulesSection.vue';
-import Testimonial from './sections/Testimonial.vue';
 
 defineProps<{
     products?: Product[];
@@ -40,7 +39,6 @@ defineProps<{
         <ModulesSection />
         <FeaturesSection />
         <FilamentSection />
-        <Testimonial />
         <ProductSection v-if="products?.length" :products="products">
             <div class="mx-auto max-w-4xl text-center">
                 <h2
