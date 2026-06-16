@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { trans } from 'laravel-vue-i18n';
-import { ArrowRight, Bot, Check, Copy, Terminal } from 'lucide-vue-next';
+import { ArrowRight, Bot, Check, Copy, Terminal } from '@lucide/vue';
 import { computed, onUnmounted, ref } from 'vue';
 import { toast } from 'vue-sonner';
 

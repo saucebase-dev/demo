@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import type { Module } from '@/components/ui/saucebase';
 import { ModuleCard, ModuleModal, useModuleList } from '@/components/ui/saucebase';
-import { BookOpen } from 'lucide-vue-next';
+import { BookOpen } from '@lucide/vue';
 import { computed, onMounted, onUnmounted, ref } from 'vue';
 
 const selectedFramework = ref<'vue' | 'react'>('vue');
