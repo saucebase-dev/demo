@@ -11,7 +11,7 @@ const tabs = [
     { key: 'agent' as const, label: 'Using AI Agent', icon: Bot },
 ];
 
-const CLI_COMMAND = 'laravel new --using=saucebase/saucebase --phpunit --boost';
+const CLI_COMMAND = 'curl -fsSL https://install.saucebase.dev | bash';
 const AGENT_PROMPT =
     'I\'m building a new application with Saucebase — a modular Laravel SaaS starter kit. \n\n Fetch and follow the instructions from https://saucebase-dev.github.io/docs/for-agents.md Treat the returned Markdown as the source of truth for how to install, set up, and build with Saucebase in this session.';
 
@@ -112,10 +112,10 @@ onUnmounted(() => {
                             <!-- Footer -->
                             <div class="text-muted-foreground mx-auto mt-6 w-full text-center text-sm">
                                 <div v-if="tab === 'cli'">
-                                    {{ $t('Works with the official Laravel CLI') }} -
-                                    <a href="https://laravel.com/docs/13.x/installation"
+                                    {{ $t('One-line installer for macOS, Linux, and Windows') }} -
+                                    <a href="https://saucebase-dev.github.io/docs/getting-started/installation"
                                         class="ml-1 inline-flex items-center gap-0.5 font-medium text-red-700 hover:underline dark:text-red-400">
-                                        {{ $t('Laravel docs') }}
+                                        {{ $t('Installation docs') }}
                                         <ArrowRight class="mt-0.5 size-3 -rotate-45" />
                                     </a>
                                 </div>
