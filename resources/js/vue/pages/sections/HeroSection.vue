@@ -112,10 +112,10 @@ onUnmounted(() => {
                             <!-- Footer -->
                             <div class="text-muted-foreground mx-auto mt-6 w-full text-center text-sm">
                                 <div v-if="tab === 'cli'">
-                                    {{ $t('Works with the official Laravel CLI') }} -
-                                    <a href="https://laravel.com/docs/13.x/installation"
+                                    {{ $t('One-line installer for macOS, Linux, and Windows') }} -
+                                    <a href="https://saucebase-dev.github.io/docs/getting-started/installation"
                                         class="ml-1 inline-flex items-center gap-0.5 font-medium text-red-700 hover:underline dark:text-red-400">
-                                        {{ $t('Laravel docs') }}
+                                        {{ $t('Installation docs') }}
                                         <ArrowRight class="mt-0.5 size-3 -rotate-45" />
                                     </a>
                                 </div>
