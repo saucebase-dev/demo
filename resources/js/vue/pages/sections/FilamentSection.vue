@@ -75,7 +75,7 @@ const features = [
 
             <!-- Centered Image with Fade Overlay -->
             <div
-                class="bg-background mx-auto mt-8 -mb-60 h-130 max-w-5xl rounded-xl bg-[url(/modules/demo/images/dashboard-admin-light.png)] mask-b-from-20% mask-b-to-60% bg-cover shadow-lg/90 xl:h-160 dark:bg-[url(/modules/demo/images/dashboard-admin-dark.png)]"
+                class="bg-background mx-auto mt-8 -mb-60 h-130 max-w-5xl rounded-xl bg-[url(/modules/demo/images/dashboard-admin-light.jpg)] mask-b-from-20% mask-b-to-60% bg-cover shadow-lg/90 xl:h-160 dark:bg-[url(/modules/demo/images/dashboard-admin-dark.jpg)]"
             />
 
             <!-- 2-Column Features Grid -->
