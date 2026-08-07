@@ -13,7 +13,7 @@ const tabs = [
 
 const CLI_COMMAND = 'curl -fsSL https://install.saucebase.dev | bash';
 const AGENT_PROMPT =
-    'I\'m building a new application with Saucebase — a modular Laravel SaaS starter kit. \n\n Fetch and follow the instructions from https://saucebase-dev.github.io/docs/for-agents.md Treat the returned Markdown as the source of truth for how to install, set up, and build with Saucebase in this session.';
+    'I\'m building a new application with Saucebase — a modular Laravel SaaS starter kit. \n\n Fetch https://saucebase-dev.github.io/docs/for-agents.md and follow it step by step to install, set up, and build with Saucebase in this session.';
 
 const currentIcon = computed(() => (tab.value === 'cli' ? Terminal : Bot));
 const currentText = computed(() => (tab.value === 'cli' ? CLI_COMMAND : AGENT_PROMPT));
